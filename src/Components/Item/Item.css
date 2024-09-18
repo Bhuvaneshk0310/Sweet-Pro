@@ -1,5 +1,11 @@
 .item{
+    margin-top: 50px;
+    display:flex ;
+    gap:30px;
     width: 350px;
+}
+.item-img{
+ width: 200px;
 }
 .item p{
     margin:6px 0px;
