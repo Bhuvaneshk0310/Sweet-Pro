@@ -43,3 +43,9 @@
     justify-content:flex-end;
     padding-top:50px;
 }
+.offerbg{
+   margin-top: 10%;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}

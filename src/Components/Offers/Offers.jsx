@@ -11,7 +11,7 @@ const Offers = () => {
         <button>Check Now</button>
       </div>
       <div className='Offers-right'>
-        <img src={bg} alt=""/>
+        <img className='offerbg' src={bg} alt=""/>
       </div>
     </div>
   )

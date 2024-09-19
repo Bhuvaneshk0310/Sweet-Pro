@@ -39,6 +39,15 @@
   background:#fbfbfb;
   border:1px solid #ebebeb;
  }
+ .footerI{
+height: 40px;
+ }
+ .footerP{
+   height: 40px;
+    }
+    .footerW{
+      height: 40px;
+       }
  .footer-copyright{
  display:flex;
 flex-direction:column;
@@ -50,6 +59,7 @@ color: #1a1a1a;
 font-size:20px;
 
  }
+
  .footer-copyright hr{
     width: 80%;
     border: none;
