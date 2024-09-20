@@ -47,6 +47,14 @@ const data_product = [
         new_price:50.0,
         old_price:80.5,
 
+    }, {
+        id:6,
+        name: "sweet dessert and cake, ",
+        category:"product",
+        image:b10,
+        new_price:50.0,
+        old_price:80.5,
+
     }, ]
 
     export default data_product; 

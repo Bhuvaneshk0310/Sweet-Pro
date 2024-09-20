@@ -1,21 +1,26 @@
-import React from 'react'
-import './Item.css'
+import React from 'react';
+import './Item.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
+
 const Item = (props) => {
   return (
-    <div className='item'>
-    <img  className="item-img" src={props.image} alt=""/>
-    <p>{props.name}</p>
-    <div className='item-prices'>
-        <div className='item-price-new'>
-            ${props.new_price}
+    <div className='col-md-4 mb-4'>
+      <div className='item card'>
+        <img className="item-img card-img-top" src={props.image} alt={props.name} />
+        <div className="card-body">
+          <h5 className="card-title">{props.name}</h5>
+          <div className='item-prices d-flex justify-content-between'>
+            <div className='item-price-new'>
+              ${props.new_price}
+            </div>
+            <div className='item-price-old'>
+              ${props.old_price}
+            </div>
+          </div>
         </div>
-        <div className  ="item-price-old">
-            ${props.old_price}
-        </div>
+      </div>
     </div>
-  
-</div>
-  )
-}
+  );
+};
 
-export default Item
+export default Item;

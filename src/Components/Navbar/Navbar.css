@@ -1,4 +1,39 @@
-.navbar{
+.navbar {
+   padding: 16px;
+   box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-login-cart {
+   gap: 15px;
+}
+
+.Carts {
+   height: 30px; /* Adjust size for better visibility */
+}
+.nav-cart-count {
+   width: 22px;
+   height: 22px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-left: -15px; /* Adjust as needed */
+   border-radius: 11px;
+   font-size: 14px;
+   background: red;
+   color: white;
+   top: -10px; /* Adjust position */
+}
+
+.active-indicator {
+   display: block;
+   height: 3px;
+   background-color: #FF4141;
+   width: 80%;
+   margin: auto;
+}
+
+/* .navbar{
     display: flex;
     justify-content: space-around;
     padding: 16px;
@@ -77,4 +112,4 @@
     font-size:14px;
     background: red;
     color:white;
- } 
+ }  */
