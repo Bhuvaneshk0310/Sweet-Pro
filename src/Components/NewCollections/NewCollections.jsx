@@ -10,7 +10,7 @@ const NewCollections = () => {
       <hr className="mx-auto" style={{ width: '200px', height: '6px', borderRadius: '10px', background: '#252525' }} />
       <div className="row g-3 mt-4">
         {new_collections.map((item, i) => (
-          <div className="col-lg-3 col-md-4 col-sm-6" key={i}>
+          <div className="col-lg-4 col-md-6 col-sm-12 " key={i}>
             <Item 
               id={item.id}  
               name={item.name} 

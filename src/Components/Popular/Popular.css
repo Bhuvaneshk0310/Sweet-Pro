@@ -17,11 +17,20 @@
     gap: 20px;
     justify-content: space-around;
 }
-
+custom-lg-width {
+    flex: 0 0 auto;
+    width: 30%; /* 30% width for large screens */
+}
 /* Media query for responsiveness */
 @media (max-width: 768px) {
     .popular h1 {
         font-size: 1.5rem;
+    }
+}
+@media (min-width: 992px) {
+    .custom-lg-width {
+        flex: 0 0 auto;
+        width: 30%; /* 30% width for large screens */
     }
 }
 

@@ -10,8 +10,8 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">
-                    <img src={logo} alt="" style={{ height: '30px', marginRight: '10px' }} />
+                <Link className="navbar-brand d-flex align-items-center" to="/">
+                    <img src={logo} alt="Sweets Logo" style={{ height: '30px', marginRight: '10px' }} />
                     SWEETS
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +42,10 @@ const Navbar = () => {
                     </ul>
                     <div className='nav-login-cart d-flex align-items-center'>
                         <Link to='/login'><button className="btn btn-outline-primary">Login</button></Link>
-                        <Link to='/cart' className="ms-3"><img className="Carts" src={cart_icon} alt="" /></Link>
-                        <div className='nav-cart-count'>0</div>
+                        <Link to='/cart' className="ms-3 position-relative">
+                            <img className="Carts" src={cart_icon} alt="Cart" />
+                            <div className='nav-cart-count'>0</div>
+                        </Link>
                     </div>
                 </div>
             </div>

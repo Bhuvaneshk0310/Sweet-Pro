@@ -14,7 +14,7 @@ const Offers = () => {
         </button>
       </div>
       <div className='offers-right col-lg-6 d-flex justify-content-end align-items-center p-5'>
-        <img className='offerbg img-fluid' src={bg} alt="" style={{ borderRadius: '20px', height: '400px', width: '400px' }} />
+        <img className='offerbg img-fluid' src={bg} alt="" style={{ borderRadius: '20px', height: '420px',weight:'auto' }} />
       </div>
     </div>
   );

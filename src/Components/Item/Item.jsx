@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
 
 const Item = (props) => {
   return (
-    <div className='col-md-4 mb-4'>
+    <div className='col-md-10 mb-4 ms-4 ps-3'>
       <div className='item card'>
         <img className="item-img card-img-top" src={props.image} alt={props.name} />
         <div className="card-body">
