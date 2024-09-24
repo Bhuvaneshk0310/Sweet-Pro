@@ -47,13 +47,14 @@
 
 .b4 {
     height: 450px;
-    margin-right: 200px;
+    margin-right: 120px;
     border-radius: 15px;
 }
 
 .b12 {
-    width: 200px;
-    height: 200px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
 }
 
 .arrow {

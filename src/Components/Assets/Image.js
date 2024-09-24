@@ -27,6 +27,9 @@ export {default as b13} from "./b13.jpg"
 export {default as b14} from "./b14.jpg"
 export {default as b15} from "./b15.jpg"
 export {default as b16} from "./b16.jpg"
+export {default as dropdown} from "./dropdown.png"
+
+
 
 let data_product = [
     {
