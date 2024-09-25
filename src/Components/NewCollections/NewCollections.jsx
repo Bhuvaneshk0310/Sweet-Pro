@@ -12,6 +12,7 @@ const NewCollections = () => {
         {new_collections.map((item, i) => (
           <div className="col-lg-4 col-md-6 col-sm-12 " key={i}>
             <Item 
+              key={i}
               id={item.id}  
               name={item.name} 
               image={item.image} 

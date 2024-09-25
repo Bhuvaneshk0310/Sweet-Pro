@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Item.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
 
@@ -6,7 +7,7 @@ const Item = (props) => {
   return (
     <div className='col-md-10 mb-4 ms-4 ps-3'>
       <div className='item card'>
-        <img className="item-img card-img-top" src={props.image} alt={props.name} />
+     <Link  to={`/product/${props.id}`}>  <img className="item-img card-img-top" src={props.image} alt={props.name} /></Link> 
         <div className="card-body">
           <h5 className="card-title">{props.name}</h5>
           <div className='item-prices d-flex justify-content-between'>
