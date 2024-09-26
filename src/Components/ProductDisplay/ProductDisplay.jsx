@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductDisplay.css';
-import logo from '../Assets/logo.png'
-
+import star_dull from '../Assets/star_dull.png'
+import star_icon from '../Assets/star_icon.png'
 const ProductDisplay = (props) => {
     const { product } = props;  // Destructure Product from props
 
@@ -21,12 +21,12 @@ const ProductDisplay = (props) => {
             </div>
             <div className="productdisplay-right">
                 <h1>{product.name}</h1>
-                <div className="productdisplay-right-star">
-                    <img src={logo} alt=""/>
-                    <img src={logo} alt=""/>
-                    <img src={logo} alt=""/>
-                    <img src={logo} alt=""/>
-                    <img src={logo} alt=""/>
+                <div className="productdisplay-right-stars">
+                    <img className="star"src={star_icon} alt=""/>
+                    <img className="star" src={star_icon} alt=""/>
+                    <img className="star" src={star_icon} alt=""/>
+                    <img className="star" src={star_icon} alt=""/>
+                    <img className="star" src={star_dull} alt=""/>
                     <p>133</p>
                 </div>
                 <div className='productdisplay-right-prices'>
