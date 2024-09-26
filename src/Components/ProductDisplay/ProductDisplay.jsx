@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProductDisplay.css';
-import b13 from '../Assets/b13.jpg'
+import logo from '../Assets/logo.png'
 
 const ProductDisplay = (props) => {
     const { product } = props;  // Destructure Product from props
@@ -22,11 +22,11 @@ const ProductDisplay = (props) => {
             <div className="productdisplay-right">
                 <h1>{product.name}</h1>
                 <div className="productdisplay-right-star">
-                    <img src={b13} alt=""/>
-                    <img src={b13} alt=""/>
-                    <img src={b13} alt=""/>
-                    <img src={b13} alt=""/>
-                    <img src={b13} alt=""/>
+                    <img src={logo} alt=""/>
+                    <img src={logo} alt=""/>
+                    <img src={logo} alt=""/>
+                    <img src={logo} alt=""/>
+                    <img src={logo} alt=""/>
                     <p>133</p>
                 </div>
                 <div className='productdisplay-right-prices'>
@@ -39,14 +39,16 @@ const ProductDisplay = (props) => {
                 <div className="proudctdisplay-right-size">
                     <h1>Select Size</h1>
                     <div className="productdisplay-right-size">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div>50g</div>
+                        <div>100g</div>
+                        <div>150g</div>
+                        <div>500g</div>
+                        <div>1kg</div>
                     </div>
                 </div>
                 <button>ADD TO CART</button>
+            <p className='productdisplay-right-category'><span>Category :</span>Women , T-Shirt, Crop Top</p>
+            <p className='productdisplay-right-category'><span>Tags :</span>Women , T-Shirt, Crop Top</p> 
             </div>
         </div>
     );
