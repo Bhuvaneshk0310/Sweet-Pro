@@ -27,7 +27,8 @@ const ProductDisplay = (props) => {
                     <img className="star" src={star_icon} alt="" />
                     <img className="star" src={star_icon} alt="" />
                     <img className="star" src={star_dull} alt="" />
-                    <p className="ms-2">(133)</p>
+                    <p className="ms-2 mb-0">(133)</p>
+
                 </div>
                 <div className='productdisplay-right-prices d-flex my-4 gap-4'>
                     <div className="productdisplay-right-price-old text-muted text-decoration-line-through">${product.old_price}</div>
@@ -37,7 +38,7 @@ const ProductDisplay = (props) => {
                     Sweet Notes is your personalized space to add thoughts, reminders, or messages for any product you love.
                 </div>
                 <div className="productdisplay-right-size">
-                    <h1>Select Size</h1>
+                    <h1>Select Quality</h1>
                     <div className="d-flex my-3 gap-2">
                         {["100g", "150g", "250g", "500g", "1kg"].map(size => (
                             <div key={size} className="p-3 bg-light border border-secondary rounded cursor-pointer">{size}</div>
