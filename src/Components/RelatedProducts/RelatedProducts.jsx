@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './RelatedProducts.css';
 import data_product from '../Assets/data';
 import Item from '../Item/Item';
-import arrow from '../Assets/arrow.png';
+
 
 const RelatedProducts = () => {
   const productsRef = useRef(null);
