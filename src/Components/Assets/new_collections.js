@@ -6,7 +6,7 @@ import b10 from './b10.png'
 const new_collections = [
     {
         id:1,
-        name: "sweet dessert and cake, ",
+        name: "Sweet dessert and cake 1, ",
         category:"product",
         image:b10,
         new_price:50.0,
@@ -15,7 +15,7 @@ const new_collections = [
     },
     {
         id:2,
-        name: "sweet dessert and cake, ",
+        name: "Sweet dessert and cake 2, ",
         category:"product",
         image:b10,
         new_price:50.0,
@@ -24,7 +24,7 @@ const new_collections = [
     },
     {
         id:3,
-        name: "sweet dessert and cake, ",
+        name: "sweet dessert and cake 3, ",
         category:"product",
         image:b10,
         new_price:50.0,
@@ -32,7 +32,7 @@ const new_collections = [
 
     }, {
         id:4,
-        name: "sweet dessert and cake, ",
+        name: "sweet dessert and cake 4, ",
         category:"product",
         image:b10,
         new_price:50.0,
@@ -41,7 +41,7 @@ const new_collections = [
     }, 
     {
         id:5,
-        name: "sweet dessert and cake, ",
+        name: "sweet dessert and cake 5, ",
         category:"product",
         image:b10,
         new_price:50.0,
@@ -50,24 +50,7 @@ const new_collections = [
     }, 
     {
         id:6,
-        name: "sweet dessert and cake, ",
-        category:"product",
-        image:b10,
-        new_price:50.0,
-        old_price:80.5,
-
-    }, {
-        id:7,
-        name: "sweet dessert and cake, ",
-        category:"product",
-        image:b10,
-        new_price:50.0,
-        old_price:80.5,
-
-    }, 
-    {
-        id:8,
-        name: "sweet dessert and cake, ",
+        name: "sweet dessert and cake 6, ",
         category:"product",
         image:b10,
         new_price:50.0,

@@ -1,24 +1,69 @@
-.relatedproducts{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    gap:10px;
-    height:90vh;
+/* .relatedproducts {
+    padding: 20px; 
 
+.relatedproducts h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.relatedproducts h1{
-    color: #171717;
-    font-size:50px;
-    font-weight:600;
+
+.relatedproducts-buttons {
+    margin-bottom: 10px;
 }
-.relatedproducts hr{
-    width: 200px;
-    height:6px;
-    border: radius 10px;;
-    background:#252525;
+
+.relatedproducts-item {
+    overflow-x: auto;
+    white-space: nowrap; 
 }
-.relatedproducts-item{
-    margin-top: 50px;
-    display: flex;
-    gap:30px;
+
+.relatedproducts-item::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.relatedproducts-item::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 10px; 
+}
+
+.relatedproducts-item::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+
+@media (max-width: 768px) {
+    .relatedproducts-item {
+        padding: 5px 0; 
+    }
+} */.relatedproducts {
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.relatedproducts h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.relatedproducts-item {
+    /* Make sure this is overflowable */
+    scroll-behavior: smooth; /* Smooth scrolling for the items */
+}
+
+/* Scrollbar styles for better visibility */
+.relatedproducts-item::-webkit-scrollbar {
+    height: 8px; /* Height of the scrollbar */
+}
+
+.relatedproducts-item::-webkit-scrollbar-thumb {
+    background: #ccc; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded edges */
+}
+
+.relatedproducts-item::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .relatedproducts-item {
+        padding: 5px 0; /* Reduce padding on mobile */
+    }
 }
